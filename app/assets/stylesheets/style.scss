@@ -1,12 +1,15 @@
+* {
+  margin-bottom:0;
+  padding:0;
+}
+
 .background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
   background: url(background2.png) no-repeat center center fixed #C0C0C0;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-//   height: 1000px;
-  background-repeat: no-repeat;
 }
 
 .header_menu {
@@ -26,6 +29,7 @@
 
 .contents {
     margin-top: 100px;
+    padding-bottom: 70px;
     color: white;
 }
 
@@ -39,13 +43,10 @@
     margin: 0;
 }
 
-.chat-text {
-    margin: 0;
-}
-
 .contents-row {
     position: relative;
     left: 15%;
+    bottom: 50px;
     width: 277px;
     background-image: url(chat.png);
     background-repeat: no-repeat;
@@ -53,7 +54,12 @@
     padding: 10px 0 0px 0;
     // margin-bottom: 30px;
     // margin-left: 150px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.chat-in {
+    position: fixed;
+    bottom: 0;
 }
 
 
