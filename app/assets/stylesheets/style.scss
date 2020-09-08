@@ -66,5 +66,15 @@
     text-align: center;
 }
 
+.login {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(lock.png) no-repeat center center fixed #C0C0C0;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
-
+.sign-up {
+    margin-top: 0px;
+}

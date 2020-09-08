@@ -1,11 +1,32 @@
-<div class= "contents">
-  <% @chats.each do |chat| %>
-      <div class="contents-row">
-          <div class="content">
-              <p1 class="chat-name"><%= chat.name %></p1>
-              <p2 class="c-text"><%= simple_format(chat.text) %></p2>
-          </div>
-      </div>
-  <% end %>
+<div class="background">
+      <header class="header">
+        <div class="header_menu">
+          <%= image_tag "icon.png", alt: "icon", id: "assets", class: "icon" %>
+          <%= image_tag "file.png", alt: "icon", id: "assets", class: "file" %>
+          <%= image_tag "call.png", alt: "icon", id: "assets", class: "call" %>
+          <%= image_tag "search.png", alt: "icon", id: "assets", class: "search" %>
+        </div>
+        <div class="community">
+          <p1 class="community_name">community.</p1>
+        </div>
+        <div class="grid-6">
+          <%= link_to "new", new_user_registration_path, class: "post" %>
+        </div>
+        <div class="friend-name">
+          <%= image_tag "name-blue.png", alt: "friend_name", id: "assets", class: "friend_name" %>
+        </div>
+      </header>
+
+  <div class= "contents">
+    <% @chats.each do |chat| %>
+        <div class="contents-row">
+            <div class="content">
+                <p1 class="chat-name"><%= chat.name %></p1>
+                <p2 class="c-text"><%= simple_format(chat.text) %></p2>
+            </div>
+        </div>
+    <% end %>
+  </div>
+  
 </div>
 
