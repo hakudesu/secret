@@ -7,7 +7,7 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url(background2.png) no-repeat center center fixed #C0C0C0;
+  background: url(backgroundnew.png) no-repeat center center fixed #C0C0C0;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -48,7 +48,7 @@
     left: 15%;
     bottom: 50px;
     width: 277px;
-    background-image: url(chat.png);
+    background-image: url(Slice2.png);
     background-repeat: no-repeat;
     background-size: 277px 100%;
     padding: 10px 0 0px 0;
@@ -60,6 +60,10 @@
 .chat-in {
     position: fixed;
     bottom: 0;
+}
+
+.friend-name {
+    text-align: center;
 }
 
 
