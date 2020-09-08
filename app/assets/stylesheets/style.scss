@@ -1,0 +1,60 @@
+.background {
+  background: url(background2.png) no-repeat center center fixed #C0C0C0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.community {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;     
+}
+
+.community_name {
+    color: white;
+}
+
+.contents {
+    margin-top: 100px;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    // margin-left: 30px;
+    
+}
+
+.chat-name {
+    margin: 0;
+}
+
+.chat-text {
+    margin: 0;
+}
+
+.contents-row {
+    position: relative;
+    left: 15%;
+    width: 277px;
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: 277px 100%;
+    padding: 10px 0 0px 0;
+    // margin-bottom: 30px;
+    // margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+
+
