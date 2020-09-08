@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root 'chats#index'
   
   get 'chats' => 'chats#index'
+  post 'chats' => 'chats#create
   
 end
