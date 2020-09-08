@@ -1,12 +1,12 @@
 .background {
   background: url(background2.png) no-repeat center center fixed #C0C0C0;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1000px;
+//   height: 1000px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .header_menu {
