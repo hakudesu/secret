@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   
   get 'top' => 'top#top_page'
   get 'chats' => 'chats#index'
+  get 'chats/turn' => 'chats#turn'
   get 'chats/home' => 'chats#home'
   post 'chats' => 'chats#create'
   
