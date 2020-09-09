@@ -70,11 +70,18 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(lock.png) no-repeat center center fixed #C0C0C0;
+    background: url(lock-2.png) no-repeat center center fixed #C0C0C0;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .sign-up {
     margin-top: 0px;
+}
+
+.loginmenu {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 20%;
 }
