@@ -1,11 +1,8 @@
 class ChatsController < ApplicationController
     
-    before_action :move_to_turn, except: :turn
+    before_action :move_to_top_page
     
     def home
-    end
-    
-    def turn
     end
     
     def index
@@ -21,8 +18,8 @@ class ChatsController < ApplicationController
         params.permit(:name, :text, :image )
     end
     
-    def move_to_turn
-        redirect_to action: :turn unless user_signed_in?
+    def move_to_top_page
+        redirect_to :controller => 'top', :action => 'top_page' unless user_signed_in?
     end
     
 end
