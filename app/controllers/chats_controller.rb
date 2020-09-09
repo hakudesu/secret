@@ -8,6 +8,9 @@ class ChatsController < ApplicationController
         Chat.create(chat_params)
     end
     
+    def home
+    end
+    
     private
     def chat_params
         params.permit(:name, :text, :image )

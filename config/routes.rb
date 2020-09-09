@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   root 'top#top_page'
   
   get 'top' => 'top#top_page'
-  get 'top/home' => 'top#home'
   get 'chats' => 'chats#index'
+  get 'chats/home' => 'chats#home'
   post 'chats' => 'chats#create'
   
 end
