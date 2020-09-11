@@ -1,9 +1,9 @@
-<h1>chat room</h1>
-<div id='message'>
-<!--chatsの_chatフォルダ呼び出し-->
-    <%= render @chats %>
+<h1>Chat room</h1>
+<div id='chats'>
+  <%= render @chats %>
 </div>
 
-<%= label_tag :text, 'Say something' %>
-<input type="text" data-behavior="room_speaker">
-
+<form>
+    <label>Say something:</label><br>
+    <input type="text" data-behavior="room_speaker">
+</form>
